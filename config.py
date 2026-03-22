@@ -1,0 +1,14 @@
+import os
+
+TELEGRAM_TOKEN           = os.environ.get("TELEGRAM_TOKEN", "")
+ADMIN_CHAT_ID            = int(os.environ.get("ADMIN_CHAT_ID", "0"))
+ADMIN_USERNAME           = os.environ.get("ADMIN_USERNAME", "admin")
+
+DAILY_LIKE_LIMIT         = 20
+DAILY_SUPERLIKE_LIMIT    = 1
+DAILY_UNDO_LIMIT         = 1
+BOOST_DURATION_MINUTES   = 30
+PREMIUM_STARS_PRICE      = 50
+PREMIUM_DURATION_DAYS    = 30
+FREE_BOOSTS_PER_WEEK     = 1
+PREMIUM_BOOSTS_PER_WEEK  = 3
